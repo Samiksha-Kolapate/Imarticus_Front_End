@@ -1,0 +1,45 @@
+
+#p1{
+    width: 50%;
+    height: 200px;
+    background-color: beige;
+    border: 2px solid black;
+
+}
+#p2{
+    width: 50%;
+    height: 200px;
+    background-color: rgb(158, 107, 163);
+    border: 2px solid black;
+}
+
+@media screen and (min-width: 800px){
+    body{
+        background-color: gray;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:800px){
+    body{
+        background-color: yellowgreen;
+    }
+    #p2{
+        margin-left: 50%;
+        width: 50%;        /*  can put 30% as per assignment */
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:0px){
+    body{
+        background-color: rgb(231, 98, 49);
+    }
+    #p1{
+        margin-left: 50%;
+    }
+    #p2{
+        margin-left: 50%;
+        width: 50%;
+        height: 200px;
+    }
+}
